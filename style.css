@@ -143,7 +143,7 @@ span {
 
 .image img {
     border-radius: 35%;
-    left: -150%;
+    left: -300%;
     width: 20em;
     position: absolute;
     bottom: 75px;
@@ -282,7 +282,6 @@ span {
 @media screen and (max-width: 575px) {
     .home nav {
         font-size: 16px;
-        ;
         height: 50vh;
         flex-direction: column;
     }
@@ -305,7 +304,39 @@ span {
         display: none;
     }
 
-    .projects .links a img {
+    .skills .logo {
+        gap: 20px;
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .projects .links A img {
         width: 90%;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+    .image {
+        display: none;
+    }
+}
+
+/* microsoft surface due */
+
+@media screen and (max-width: 2700px) {
+    .image{
+     top: 0em;
+    }
+    
+
+/* ipads and tabs */
+
+@media screen and (max-width: 2570px) {
+    .image{
+        bottom: 12em;
     }
 }
