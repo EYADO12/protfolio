@@ -16,9 +16,9 @@
 }
 
 nav {
-    width:100%;
+    width: 100%;
     position: fixed;
-     z-index: 1000;
+    z-index: 1000;
     background-color: #2e2c2c;
     padding-top: 3em;
     padding-bottom: 2em;
@@ -155,6 +155,9 @@ span {
 }
 
 
+
+
+
 /* About me section */
 
 
@@ -196,6 +199,10 @@ span {
 .skills .img img {
     width: 20em;
 }
+
+
+
+
 
 /* My skills section */
 
@@ -258,6 +265,10 @@ span {
 }
 
 
+
+
+
+
 /* My projects section */
 
 .projects {
@@ -282,18 +293,40 @@ span {
     width: 50%;
 }
 
+
+
 /* for mobiles*/
 
 @media screen and (max-width: 575px) {
     .home nav {
-        font-size: 16px;
-        height: 50vh;
+        font-size: 14px;
+        height: 10vh;
+        padding-bottom: 7em;
         flex-direction: column;
     }
-
-    .content {
-        padding: 0 12%;
+    
+    .home nav ul{
+        position: relative;
+        top: -40px;
     }
+
+    .home h2 {
+        position: relative;
+        top: -35px;
+        margin-right: 5em;
+        display: non;
+    }
+    
+    .home nav .btn{
+        position: relative;
+        left: 9.2em;
+        top: -5em;
+    }
+
+    .content{
+        padding: 12%;
+    }
+    
 
     .image img {
         display: none;
@@ -301,7 +334,7 @@ span {
 
     .about .texts {
         margin-left: -80px;
-        height: 70vh;
+        height: 110vh;
         flex-shrink: 4;
     }
 
@@ -333,15 +366,15 @@ span {
 /* microsoft surface due */
 
 @media screen and (max-width: 2700px) {
-    .image{
-     top: 0em;
+    .image {
+        top: 0em;
     }
-    
 
-/* ipads and tabs */
 
-@media screen and (max-width: 2570px) {
-    .image{
-        bottom: 12em;
+    /* ipads and tabs */
+
+    @media screen and (max-width: 2570px) {
+        .image {
+            bottom: 12em;
+        }
     }
-}
