@@ -311,9 +311,7 @@ span {
     }
 
     .home h2 {
-        position: relative;
-        top: -35px;
-        margin-right: 5em;
+        display:none;
     }
     
     .home nav .btn{
