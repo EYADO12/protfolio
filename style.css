@@ -17,7 +17,7 @@
 
 nav {
     width: 100%;
-    position: fixed;
+    position: xed;
     z-index: 1000;
     background-color: #2e2c2c;
     padding-top: 3em;
