@@ -302,22 +302,20 @@ span {
         font-size: 14px;
         height: 10vh;
         padding-bottom: 7em;
-        flex-direction: column;
-    }
-    
-    .home nav ul{
-        position: relative;
-        top: -40px;
     }
 
+    .home nav ul{
+        position: relative;
+        top: 2em;
+    }
+    
     .home h2 {
-        display:none;
+        display: none;
     }
     
     .home nav .btn{
         position: relative;
-        left: 9.2em;
-        top: -5em;
+        top: 3em;
     }
 
     .content{
@@ -331,7 +329,6 @@ span {
 
     .about .texts {
         margin-left: -80px;
-        height: 110vh;
         flex-shrink: 4;
     }
 
